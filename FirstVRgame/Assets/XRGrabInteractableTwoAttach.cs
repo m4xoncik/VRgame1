@@ -19,6 +19,8 @@ public class XRGrabInteractableTwoAttach : XRGrabInteractable
         {
             attachTransform = rightAttachTransform;
         }
+
+
         base.OnSelectEntered(args);
 
     }
